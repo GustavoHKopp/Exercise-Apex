@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>placar do jogo</title>
+</head>
+<body> 
+    <script>
+        let timeA = parseInt(window.prompt('quantos gols o time A fez'))
+        let timeB = parseInt(window.prompt('quantos gols o time B fez'))
+        if(timeA > timeB){
+            document.write('o placar foi de: time A ' + timeA + 'x' + timeB + ' time B')
+        }else if (timeB > timeA){
+            document.write('o placar foi de: time B ' + timeB + 'x' + timeA + ' time A')
+        } else {
+            document.write('o jogo empatou')
+        }
+
+    </script>
+</body>
+</html>

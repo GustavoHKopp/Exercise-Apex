@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maior menor</title>
+</head>
+<body>
+    <script>
+        let firstNumber = parseInt(window.prompt('digite o primeiro número'))
+        let secondNumber = parseInt(window.prompt('digite o segundo número'))
+        let tirdNumber = parseInt(window.prompt('digite o terceiro número'))
+        if(firstNumber < secondNumber && firstNumber < tirdNumber){
+            document.write(firstNumber + ' é o menor numero e')
+        }else  if(secondNumber < firstNumber && secondNumber < tirdNumber){
+            document.write(secondNumber + ' é o menor numero e')
+        }else   if(tirdNumber < secondNumber && tirdNumber < firstNumber){
+            document.write(tirdNumber + ' é o menor numero e')
+        }
+        if(firstNumber > secondNumber && firstNumber > tirdNumber){
+            document.write(firstNumber + ' é o maior numero')
+        }else  if(secondNumber > firstNumber && secondNumber > tirdNumber){
+            document.write(secondNumber + ' é o miaor numero')
+        }else   if(tirdNumber > secondNumber && tirdNumber > firstNumber){
+            document.write(tirdNumber + ' é o maior numero')
+        }else{
+            document.write('os numeros são iguais')
+        }
+        
+    </script>
+</body>
+</html>

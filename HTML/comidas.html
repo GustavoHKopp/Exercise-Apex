@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styleList.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de alimentos</title>
+  </head>
+  <body>
+    <ol type="1"  id="ol">
+      <li onclick="displayBaCMessage()">Beef and Cream</a></li>
+      <li onclick="displayRiceMessage()">Rice</a></li>
+      <li onclick="displayBeensMessage()">Beens</a></li>
+    </ol>
+    <script>
+      let message = 'Enjoy your '
+      function displayBaCMessage() {
+        document.getElementById("enjoy").innerHTML = message + 'Beef & Cream'
+      }
+      function displayRiceMessage() {
+        document.getElementById("enjoy").innerHTML = message + 'Rice'
+      }
+      function displayBeensMessage() {
+        document.getElementById("enjoy").innerHTML = message + 'Beens'
+      }
+    </script>
+    <p id="enjoy"></p>
+  </body>
+</html>

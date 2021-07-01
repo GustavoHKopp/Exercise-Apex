@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventos</title>
+</head>
+<body>
+        <script>
+            function cauculaMedia(){
+                let nota1 = parseInt(document.getElementById('nota1').value)
+                let nota2 = parseInt(document.getElementById('nota2').value)
+                let nota3 = parseInt(document.getElementById('nota3').value)
+                let resultado = (nota1 + nota2 + nota3) / 3
+                alert(resultado)
+            }
+        </script>
+
+
+        <form>
+            <input type="text" placeholder="nota1" id='nota1'>
+            <input type="text" placeholder="nota2" id='nota2'>
+            <input type="text" placeholder="nota3" id='nota3'>
+            <input type="button" value='caucular' onclick="cauculaMedia()">
+        </form>
+</body>
+</html>

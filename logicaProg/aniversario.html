@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qual a data do seu nascimento</title>
+</head>
+<body>
+    <script>
+        let diaNascimeto = window.prompt('informeo o dia do seu nascimento')
+        let mesNascimento = window.prompt('informe o mês do seu nascimento')
+        let anoNascimento = window.prompt('informe o ano do seu nascimento')
+        if(diaNascimeto <= 31 && mesNascimento <= 12 && anoNascimento <= 2019){
+            document.write('essa é uma data valida')
+        }else{
+            document.write('essa não é uma data valida')
+        }
+    </script>
+</body>
+</html>

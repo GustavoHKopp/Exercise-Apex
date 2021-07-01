@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>titulo</title>
+</head>
+
+<body>
+    <table>
+        <caption>Contas a pagar</caption>
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Água</td>
+                <td id="valor1">44,80</td>
+            </tr>
+            <tr>
+                <td>Lúz</td>
+                <td id="valor2">160,30</td>
+            </tr>
+            <tr>
+                <td>Telefone/Tv/Internet</td>
+                <td id="valor3">200,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+    <script>
+        function sum(num1, num2, num3) {
+            let valor1 = document.getElementById('valor1').value
+            let valor2 = document.getElementById('valor2').value
+            let valor3 = document.getElementById('valor3').value
+                return valor1 + valor2 + valor3
+        }
+
+        document.write('o total para você pagar sera: ', sum())
+    </script>
+</body>
+
+</html>
