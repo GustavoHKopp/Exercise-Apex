@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(31, 219, 172);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.children{
+    width: 100px;
+    height: 200px;
+    margin: 30px;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+.children:hover{
+    background-color: brown;
+}

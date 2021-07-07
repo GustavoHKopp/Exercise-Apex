@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styleList.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de alimentos</title>
+</head>
+<body>
+    <h3>Food List</h3>
+    <ol type="1" onclick="handleOnClick()" id="ol">
+        <li><a href="" id="BaC" value="Beef and Cream">Beef and Cream</a></li>
+        <li><a href="" id="Rice" value="Rice">Rice</a></li>
+        <li><a href="" id="Been" value="Been">Beens</a></li>
+    </ol>
+    <a href="table.html">tabelas</a>
+    <script>
+        let foodOne = document.getElementById('BaC')
+        let foodTwo = document.getElementById('Rice').value
+        let foodThree = document.getElementById('Been').value
+        let food 
+        function handleOnClick(){
+            alert('Enjoy Your', food)
+        }
+        console.log(foodOne.e.value)
+        switch(food){
+            case 'BaC': 
+            handleOnClick
+            break;
+            case 'Rice':
+            handleOnClick
+            break;
+            case 'Been': 
+            handleOnClick
+            break;
+        }
+    </script>
+</body>
+</html>
