@@ -1,0 +1,27 @@
+div{
+    border: solid 2px black;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px lightslategray;
+}
+
+.top{     
+    width: 100px;
+    height: 100px;
+    margin: 20px 1860px 20px 20px;
+}
+.mid{
+    width: 100px;
+    height: 100px;
+    margin: 150px 20px 20px 540px;
+}
+.bot{
+    width: 100px;
+    height: 100px;
+    margin: 160px 20px 20px 1130px;
+}
+.intern{
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    margin: 33px;
+}

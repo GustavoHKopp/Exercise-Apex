@@ -1,0 +1,13 @@
+
+li{
+    color:blue
+}
+a:hover{
+    color:rgb(169, 210, 243)
+}
+a:active{
+    color:rgb(229, 232, 253)
+}
+a{
+    color:blue
+}
